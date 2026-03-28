@@ -10,7 +10,7 @@ spec:
     matchLabels:
       app: go-web-app 
   template:
-    matadata:
+    metadata:
       app: go-web-app
     spec:
       containers:
