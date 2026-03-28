@@ -11,7 +11,8 @@ spec:
       app: go-web-app 
   template:
     metadata:
-      app: go-web-app
+      labels:
+        app: go-web-app
     spec:
       containers:
         - name: go-web-application
